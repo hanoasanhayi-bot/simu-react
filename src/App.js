@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import TableList from "./ex-even/TableList";
+import Header from "./ex-even/Header";
+import Footer from "./ex-even/Footer";
+import DachedList from "./ex-even/DashedList";
+import CardLivre from "./ex-even/CardLivre";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header />
+      <DachedList />
+      <TableList />
+      <CardLivre />
+
+      <Footer />
     </div>
   );
 }
 
 export default App;
+
